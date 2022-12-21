@@ -1,10 +1,15 @@
 package oop.InheritanceSurName;
 
+import java.util.Scanner;
+
 public class GrandFather {
-   String name= "keshav";
-   String surname="Bhandari";
-   public void grandfatherInfo(){
-      System.out.println("Full  name :: "+ name+" "+surname);
-   }
+    String surname = "Bhandari";
+
+    public void grandfatherInfo() {
+        System.out.println("enter Grandfather name");
+       Scanner scanner= new Scanner(System.in);
+       String str= scanner.nextLine();
+        System.out.println("Grandfather name :: " + str + " " + surname);
+    }
 
 }

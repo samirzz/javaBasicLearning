@@ -1,0 +1,6 @@
+<Laptop serial_ID="1">
+  <name>Dell</name>
+  <ssd>false</ssd>
+  <ramSize>256</ramSize>
+  <price>30500.0</price>
+</Laptop>
